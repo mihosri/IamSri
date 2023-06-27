@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* height: 100vh; */
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+/* .container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  } */
+
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back{
+    /* height: 500px;
+    width: 1000px; */
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+    background-color: black;
+
+    border-style: solid;
+    border-width: 6px;
+    
+    border-image-slice: 1;
+    border-image-source: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+
+    box-shadow: 0 0 5px 2px;
+    position: absolute;
+
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(180deg);
+    pointer-events: auto; /* Enable pointer events on the back face */
+}
+
+h1, p {
+    color: white;
+}
+
+
+/* .bgtext{ */
+    /* color: rgb(20, 19, 20);
+    text-shadow: 2px 2px 4px black; */
+    /* color: white;
+    text-shadow: 2px 2px 4px #000000;
+} */
