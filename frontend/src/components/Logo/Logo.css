@@ -1,0 +1,16 @@
+p {
+    color: white;
+}
+
+p.name{
+    font-family: 'Parisienne', cursive;
+    font-size: 60px; 
+}
+
+.bottomline{
+    border-bottom: 2px solid white;
+}
+
+p.goal{
+    font-family: 'Montserrat', sans-serif;
+}
