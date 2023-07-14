@@ -5,3 +5,12 @@ A collection presenting my talents, endeavors, and providing an overview of who 
 # Prototype
 
 Link: https://www.figma.com/file/AIQ1VAHm5c2Ou1H5n3QMc6/Sri-Portfolio?type=design&node-id=0%3A1&mode=design&t=DgLmZMFUy7mv18Uz-1
+
+# Technologies Utilized
+
+- HTML
+- CSS
+- Javascript
+- React
+
+# Website
