@@ -4,7 +4,7 @@ p {
 
 p.name{
     font-family: 'Parisienne', cursive;
-    font-size: 60px; 
+    font-size: 55px; 
 }
 
 .bottomline{
@@ -13,4 +13,6 @@ p.name{
 
 p.goal{
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
 }
