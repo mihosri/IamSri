@@ -15,7 +15,7 @@ body {
 }
 
 .container{
-    /* height: 100vh; */
+   
     height: 500px;
     width: 1000px;
     display: flex;
@@ -24,10 +24,6 @@ body {
     perspective: 1000px;
 }
 
-/* .container:hover > .card {
-    cursor: pointer;
-    transform: rotateY(180deg);
-  } */
 
 .card{
     height: 100%;
@@ -39,8 +35,7 @@ body {
 
 .front,
 .back{
-    /* height: 500px;
-    width: 1000px; */
+    
     height: 100%;
     width: 100%;
     padding: 10px;
@@ -56,10 +51,6 @@ body {
     box-shadow: 0 0 5px 2px;
     position: absolute;
 
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-
     backface-visibility: hidden;
 }
 
@@ -72,7 +63,7 @@ body {
 
 .back{
     transform: rotateY(180deg);
-    pointer-events: auto; /* Enable pointer events on the back face */
+    pointer-events: auto; /* TODO:Enable pointer events on the back face */
 }
 
 
@@ -105,8 +96,6 @@ body {
     white-space: normal;
     font-size: 18px;
     text-align:center;
-    /* right: 50%; */
-    /* font-family: 'Playfair Display'; */
     font-family: 'Lato';
     width: 250px;
     height: 500px;
@@ -123,4 +112,33 @@ body {
     position: absolute;
     bottom: 18%;
     left: -10%
+}
+
+.email{
+    position: absolute;
+    bottom: 18%;
+    left: -0%
+}
+
+.phone{
+    position: absolute;
+    bottom: 18%;
+    left: 10%
+}
+
+.resume{
+    position: absolute;
+    bottom: 18%;
+    left: 20%
+}
+
+.list{
+    position: relative;
+    transform: translate(50%, -50%);
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    top: -50%;
+    left: 10%;
 }
