@@ -97,9 +97,11 @@ function BusinessCard() {
                 </div>
               </Link>              
               <br></br>
-              <div className='projects'>
-                <p>PROJECTS <span><ProjectsIcon/></span></p>                
-              </div>
+              <Link to='/projects' target='_blank'>
+                <div className='projects'>
+                  <p>PROJECTS <span><ProjectsIcon/></span></p>                
+                </div>
+              </Link>              
               <br></br>
               <div className='skills'>
                 <p>TECHNICAL SKILL SET <span><SkillsIcon/></span> </p>                
