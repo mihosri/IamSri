@@ -17,11 +17,13 @@ import SkillsIcon from '../Icons/SkillsIcon.jsx';
 import BlogIcon from '../Icons/BlogIcon.jsx';
 import CertificationIcon from '../Icons/CertificationIcon.jsx';
 import AwardsIcon from '../Icons/AwardsIcon.jsx';
+import { Link } from 'react-router-dom';
 
 function BusinessCard() {
 
   const linkedinUrl = 'https://www.linkedin.com/in/sri-guru-girahha/';
   const gitUrl = 'https://github.com/mihosri';
+  const blogUrl = 'https://medium.com/@Srineethi';
 
   return (
     <>
@@ -86,31 +88,39 @@ function BusinessCard() {
           <div className='list'>
             <div>
               <div className='experience'>
-                <p>IT INDUSTRY EXPERIENCE <WorkIcon/></p>                
+                <p>WORK EXPERIENCE <span><WorkIcon/></span></p>                
               </div>
               <br></br>
-              <div className='education'>
-                <p>EDUCATION <EducationIcon/></p>                
-              </div>
+              <Link to='/education' target='_blank'>
+                <div className='education'>
+                  <p>EDUCATION <span><EducationIcon/></span> </p>                
+                </div>
+              </Link>              
               <br></br>
               <div className='projects'>
-                <p>RELEVANT IT PROJECTS <ProjectsIcon/></p>                
+                <p>PROJECTS <span><ProjectsIcon/></span></p>                
               </div>
               <br></br>
               <div className='skills'>
-                <p>TECHNICAL SKILL SET <SkillsIcon/></p>                
+                <p>TECHNICAL SKILL SET <span><SkillsIcon/></span> </p>                
               </div>
               <br></br>
-              <div className='blog'>
-                <p>BLOG WRITING <BlogIcon/></p>                
-              </div>
+              <a href={blogUrl} target='_blank' style={{textDecoration: 'none'}}>    
+              <div>
+                <p>BLOG WRITING <span><BlogIcon/></span></p>
+              </div>                 
+              </a>
               <br></br>
               <div className='certification'>
-                <p>CERTIFICATION <CertificationIcon/></p>                
+                <p>CERTIFICATION <span><CertificationIcon/></span></p>                
               </div>
               <br></br>
               <div className='awards'>
-                <p>AWARDS <AwardsIcon/></p>                
+                <p>AWARDS <span><AwardsIcon/></span></p>                
+              </div>
+              <br></br>
+              <div className='feedback'>
+                <p>Peer Feedback</p>                
               </div>
             </div>
           </div>
