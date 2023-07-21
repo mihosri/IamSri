@@ -17,6 +17,8 @@ import SkillsIcon from '../Icons/SkillsIcon.jsx';
 import BlogIcon from '../Icons/BlogIcon.jsx';
 import CertificationIcon from '../Icons/CertificationIcon.jsx';
 import AwardsIcon from '../Icons/AwardsIcon.jsx';
+import FeedbackIcon from '../Icons/FeedbackIcon';
+
 import { Link } from 'react-router-dom';
 
 function BusinessCard() {
@@ -24,6 +26,7 @@ function BusinessCard() {
   const linkedinUrl = 'https://www.linkedin.com/in/sri-guru-girahha/';
   const gitUrl = 'https://github.com/mihosri';
   const blogUrl = 'https://medium.com/@Srineethi';
+  const certificationUrl = 'https://www.credly.com/badges/9d9569d9-16ef-4994-918c-d1516584c82e/linked_in_profile';
 
   return (
     <>
@@ -87,9 +90,11 @@ function BusinessCard() {
 
           <div className='list'>
             <div>
-              <div className='experience'>
-                <p>WORK EXPERIENCE <span><WorkIcon/></span></p>                
-              </div>
+              <Link to='/experience' target='_blank'>
+                <div className='experience'>
+                  <p>WORK EXPERIENCE <span><WorkIcon/></span></p>                
+                </div>
+              </Link>
               <br></br>
               <Link to='/education' target='_blank'>
                 <div className='education'>
@@ -103,9 +108,11 @@ function BusinessCard() {
                 </div>
               </Link>              
               <br></br>
+              <Link to='/skills' target='_blank'>
               <div className='skills'>
                 <p>TECHNICAL SKILL SET <span><SkillsIcon/></span> </p>                
               </div>
+              </Link>
               <br></br>
               <a href={blogUrl} target='_blank' style={{textDecoration: 'none'}}>    
               <div>
@@ -113,17 +120,23 @@ function BusinessCard() {
               </div>                 
               </a>
               <br></br>
+              <a href={certificationUrl} target='_blank' style={{textDecoration: 'none'}}>
               <div className='certification'>
                 <p>CERTIFICATION <span><CertificationIcon/></span></p>                
               </div>
+              </a>
               <br></br>
-              <div className='awards'>
-                <p>AWARDS <span><AwardsIcon/></span></p>                
-              </div>
+              <Link to='/awards' target='_blank'>
+                <div className='awards'>
+                  <p>AWARDS <span><AwardsIcon/></span></p>                
+                </div>
+              </Link>
               <br></br>
+              <Link to='/feedback' target='_blank'>
               <div className='feedback'>
-                <p>Peer Feedback</p>                
+                <p>Peer Feedback <span><FeedbackIcon/></span></p>                
               </div>
+              </Link>
             </div>
           </div>
         </div>        

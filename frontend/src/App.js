@@ -5,7 +5,7 @@ import Projects from './components/Projects/Projects.jsx';
 import Skills from './components/Skills/Skills.jsx';
 import Experience from './components/Experience/Experience.jsx';
 import Awards from './components/Awards/Awards.jsx';
-
+import Feedback from './components/Feedback/Feedback.jsx';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path='/skills' Component={Skills}/>
         <Route path='/experience' Component={Experience}/>
         <Route path='/awards' Component={Awards}/>
+        <Route path='/feedback' Component={Feedback}/>
       </Routes>      
     </Router>
     </>
