@@ -31,8 +31,7 @@ function BusinessCard() {
   return (
     <>
     <div className='container'>
-      <div className='card'>
-        
+      <div className='card'>        
         <div className="front">
           <div className='logocontainer'>
             <div className='logoelements'>
@@ -47,7 +46,7 @@ function BusinessCard() {
           <div className='texticons'>
             <div className='aboutme'>
               <p>Hi, Step into my portfolio realm!</p>
-              <p> I'm a Calgary-based software developer who loves to learn, code and squash bugs! My goal is to create software solutions that leave a meaningful impact on people’s lives. Come explore my projects, witness the magic of simplicity and efficiency!</p>
+              <p> I'm a Calgary-based software developer who loves to learn, code and squash bugs! My goal is to create software solutions that leave a meaningful impact on people lives. Come explore my projects, witness the magic of simplicity and efficiency!</p>
             </div>
             <div className='icons'>
               <a href={linkedinUrl} target='_blank' rel='noopener noreferrer'>
@@ -90,27 +89,27 @@ function BusinessCard() {
 
           <div className='list'>
             <div>
-              <Link to='/experience' target='_blank'>
+              <Link to='/experience' target='_blank' style={{textDecoration: 'none'}}>
                 <div className='experience'>
                   <p>WORK EXPERIENCE <span><WorkIcon/></span></p>                
                 </div>
               </Link>
               <br></br>
-              <Link to='/education' target='_blank'>
+              <Link to='/education' target='_blank' style={{textDecoration: 'none'}}>
                 <div className='education'>
-                  <p>EDUCATION <span><EducationIcon/></span> </p>                
+                  <p>EDUCATION <span><EducationIcon/></span></p>                
                 </div>
               </Link>              
               <br></br>
-              <Link to='/projects' target='_blank'>
+              <Link to='/projects' target='_blank' style={{textDecoration: 'none'}}>
                 <div className='projects'>
                   <p>PROJECTS <span><ProjectsIcon/></span></p>                
                 </div>
               </Link>              
               <br></br>
-              <Link to='/skills' target='_blank'>
+              <Link to='/skills' target='_blank' style={{textDecoration: 'none'}}>
               <div className='skills'>
-                <p>TECHNICAL SKILL SET <span><SkillsIcon/></span> </p>                
+                <p>TECHNICAL SKILL SET <span><SkillsIcon/></span></p>                
               </div>
               </Link>
               <br></br>
@@ -126,15 +125,15 @@ function BusinessCard() {
               </div>
               </a>
               <br></br>
-              <Link to='/awards' target='_blank'>
+              <Link to='/awards' target='_blank' style={{textDecoration: 'none'}}>
                 <div className='awards'>
                   <p>AWARDS <span><AwardsIcon/></span></p>                
                 </div>
               </Link>
               <br></br>
-              <Link to='/feedback' target='_blank'>
+              <Link to='/feedback' target='_blank' style={{textDecoration: 'none'}}>
               <div className='feedback'>
-                <p>Peer Feedback <span><FeedbackIcon/></span></p>                
+                <p>PEER FEEDBACK <span><FeedbackIcon/></span></p>                
               </div>
               </Link>
             </div>

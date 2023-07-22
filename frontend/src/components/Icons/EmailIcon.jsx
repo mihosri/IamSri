@@ -3,7 +3,7 @@ import React from 'react'
 const EmailIcon = () => {
   return (
     <>
-      <svg width="73" height="61" viewBox="0 0 73 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="53" height="45" viewBox="0 0 73 61" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="73" height="61" fill="#F5F5F5"/>
         <g id="Real time card layout">
         <rect width="1000" height="500" transform="translate(-699 -419)" fill="black"/>

@@ -54,6 +54,11 @@ body {
     backface-visibility: hidden;
 }
 
+.front{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .arrowsvg{
     position: absolute;
     top: 50%;
@@ -138,12 +143,12 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    top: -50%;
-    left: 10%;
+    font-size: 17px;
+    top: -40%;
+    right: 55%;
+    text-align: right;
 }
 
 span{
-    padding-left: 30px;
+    margin-left: 10px;
 }
-
