@@ -19,6 +19,7 @@ import CertificationIcon from '../Icons/CertificationIcon.jsx';
 import AwardsIcon from '../Icons/AwardsIcon.jsx';
 import FeedbackIcon from '../Icons/FeedbackIcon';
 import OwlEmojiIcon from '../Icons/OwlEmojiIcon.jsx';
+import HandEmoticon from '../Icons/HandEmoticon.jsx'
 
 import { Link } from 'react-router-dom';
 
@@ -47,9 +48,8 @@ function BusinessCard() {
           {/* About Me and contact icons */}
           <div className='texticons'>
             <div className='aboutme'>
-            <p><OwlEmojiIcon/> Hi, Step into my portfolio realm!</p>
-            <br></br>
-            <p> I'm a Calgary-based software developer who loves to learn, code and squash bugs! My goal is to create software solutions that leave a meaningful impact on people's lives. Come explore my projects, experience the magic of simplicity and efficiency!</p>
+            <p><HandEmoticon/>Hi, Step into my portfolio realm!</p>
+            <p> I'm a Calgary-based software developer who loves to learn, code and squash bugs! My goal is to create software solutions that leave a meaningful impact on people's lives. Come explore my website, experience a vivid picture of my journey and accomplishments!</p>
             </div>
             <div className='icons'>
               <a href={linkedinUrl} target='_blank' rel='noopener noreferrer'>
