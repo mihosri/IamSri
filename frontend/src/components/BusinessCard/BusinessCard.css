@@ -102,7 +102,7 @@ body {
     font-size: 18px;
     text-align:center;
     font-family: 'Lato';
-    width: 250px;
+    width: 300px;
     height: 500px;
     line-height: 30px;
 }
@@ -110,31 +110,50 @@ body {
 .linkedin{
     position: absolute;
     bottom: 18%;
-    left: -20%
+    left: -15%
 }
 
 .git{
     position: absolute;
     bottom: 18%;
-    left: -10%
+    left: -5%
 }
 
 .email{
     position: absolute;
     bottom: 18%;
-    left: -0%
+    left: 5%
 }
 
 .phone{
     position: absolute;
     bottom: 18%;
-    left: 10%
+    left: 15%
 }
+
+
+.tooltip {
+    font-family: 'Lato';
+    display: none;
+    position: absolute;
+    bottom: 32.5%; 
+    left: 15%;
+    transform: translateX(-50%);
+    padding: 7px;
+    background-color: #1b1b1b; 
+    color: #fff; 
+    border-radius: 5px;
+  }
+  
+ 
+  .phone-container:hover .tooltip {
+    display: block;
+  }
 
 .resume{
     position: absolute;
     bottom: 18%;
-    left: 20%
+    left: 25%
 }
 
 .list{
