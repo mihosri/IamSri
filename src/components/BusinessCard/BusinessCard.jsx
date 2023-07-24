@@ -29,7 +29,7 @@ function BusinessCard() {
   const gitUrl = 'https://github.com/mihosri';
   const blogUrl = 'https://medium.com/@Srineethi';
   const certificationUrl = 'https://www.credly.com/badges/9d9569d9-16ef-4994-918c-d1516584c82e/linked_in_profile';
-  const resumeUrl = 'https://drive.google.com/file/d/1f8v_0u7g3RbkS8CCrha0IyCCDDjqF-q3/view?usp=sharing';
+  const resumeUrl = 'https://drive.google.com/file/d/1dSRbQ7DoWSHoWrYHLmO3BdBbBZrVstLZ/view?usp=sharing';
 
   return (
     <>
