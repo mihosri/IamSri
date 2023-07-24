@@ -11,4 +11,4 @@ A collection presenting my talents, endeavors, and providing an overview of who 
 - SVG icons and design
 
 # 📌 **Website**
-Check out my website here 👉 https://iamsri.vercel.app/
+Check out my website here 👉 https://holasri.vercel.app/
