@@ -1,8 +1,8 @@
-# SriPortfolio
+#👩‍🎓 **Portfolio**
 
 A collection presenting my talents, endeavors, and providing an overview of who I am.
 
-# Technologies & Languages Utilized
+# 🔑**Technologies**
 
 - HTML
 - CSS
@@ -10,5 +10,5 @@ A collection presenting my talents, endeavors, and providing an overview of who 
 - React
 - SVG icons and design
 
-# Website
+#📌 **Website**
 Check out my website here 👉 https://iamsri.vercel.app/
