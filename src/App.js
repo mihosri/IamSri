@@ -6,21 +6,23 @@ import Skills from './components/Skills/Skills.jsx';
 import Experience from './components/Experience/Experience.jsx';
 import Awards from './components/Awards/Awards.jsx';
 import Feedback from './components/Feedback/Feedback.jsx';
+import BackgroundText from './components/BackgroundText/BackgroundText.jsx';
 
 function App() {
   return (
     <>
-    <Router>
-      <Routes>
-        <Route path='/' Component={BusinessCard}/>
-        <Route path='/education' Component={Education}/>
-        <Route path='/projects' Component={Projects}/>
-        <Route path='/skills' Component={Skills}/>
-        <Route path='/experience' Component={Experience}/>
-        <Route path='/awards' Component={Awards}/>
-        <Route path='/feedback' Component={Feedback}/>
-      </Routes>      
-    </Router>
+      <Router>
+        <Routes>
+          {/* <Route path="/" Component={BusinessCard} /> */}
+          <Route path="/" Component={BackgroundText} />
+          <Route path="/education" Component={Education} />
+          <Route path="/projects" Component={Projects} />
+          <Route path="/skills" Component={Skills} />
+          <Route path="/experience" Component={Experience} />
+          <Route path="/awards" Component={Awards} />
+          <Route path="/feedback" Component={Feedback} />
+        </Routes>
+      </Router>
     </>
   );
 }
